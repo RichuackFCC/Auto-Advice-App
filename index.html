@@ -7,37 +7,53 @@
     <title>Auto-Advice-App</title>
 </head>
 <body>
-    <header class="main-header">
-        <h1>Advice-Auto-App</h1>
-    </header>
+    <div class="wrapper">
+        <header class="main-header">
+            <h1>Advice-Auto-App<span>Advice When You Need It</span></h1>
+        </header>
 
-    <article class="main-content">
-        <h2>Here’s some advice …</h2>
-        <p id="advice"></p>
-        <a href="#" id="tweet-button" target="_blank"><button>Tweet</button></a>
-    </article>
-    
-    <aside class="side-content">
-        <h2>Why use Auto Advice App ???</h2>
-            <section>
-                <h3>Reason #1</h3>
-                <p>Find yourself stranded alone and need advice ??? You're in luck !!!</p>
-            </section>
-
-            <section>
-                <h3>Reason #2</h3>
-                <P>Random advice is always better than no advice at all !!!</P>
-            </section>
+        <article class="main-content">
+            <h2>Here’s a random bit of advice...</h2>
             
-            <section>
-                <h3>Reason #3</h3>
-                <p>It's scientifically proven that giving random advice is a lot easier than taking advice !!!</p>
-            </section>
-    </aside>
+            <div class="advice-container">
+            <p id="advice" class="advice-slip"></p>
+            </div>
+            
+            <div class="tweet-button-container">
+                <p>Share this advice with the Twittersphere</p>
+            <a href="#" id="tweet-button" target="_blank">
+                <button class="tweet-button">
+                    <i class="fab fa-twitter"></i>&nbspTweet
+                </button>
+            </a>
+            </div>
+        </article>
     
-    <footer class="main-footer">
+        <aside class="side-content">
+            <h3>Why use Auto Advice App ???</h3>
+                <section>
+                    <h4>Reason #1</h4>
+                    <p>Find yourself stranded alone and need advice ??? You're in luck !!!</p>
+                </section>
+
+                <section>
+                    <h4>Reason #2</h4>
+                    <P>Random advice is always better than no advice at all !!!</P>
+                </section>
+            
+                <section>
+                    <h4>Reason #3</h4>
+                    <p>It's scientifically proven that giving random advice is a lot easier than taking advice !!!</p>
+                </section>
+        </aside>
+    
+
+        
+        <footer class="main-footer">
             <p>This is a FreeCodeCamp Chicago Group Project</p>
-    </footer>
+        </footer>
+
+    </div>  
 
     
 

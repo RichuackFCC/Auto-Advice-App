@@ -35,10 +35,13 @@ html {
 
   :root {
       --default-padding: 1.5em;
-      --primary-color: #002C91;
-      --secondary-color: #1A60FF;
+      /* --primary-color: #002C91; */
+      --primary-color:black;
+      /* --secondary-color: #1A60FF; */
+      --secondary-color:black;
       --tertiary-color: #7FA6FF;
-      --text-color: #FFFFFF;
+      /* --text-color: #FFFFFF; */
+      --text-color: white;
   }
 
   html, 
@@ -130,10 +133,10 @@ p {
 
 .advice-slip {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: larger;
+    font-size: 1.75em;
     font-weight: bold;
-    color: red;
-    font-style: oblique;
+    color: rgb(255, 165, 0);
+    font-style: italic;
 }
  
   /* html {
